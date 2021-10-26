@@ -233,6 +233,6 @@ Parameter.declare({
 	name: NoVerifyParameter,
 	aliases: ['--no-verify'],
 	description:
-		'(OPTIONAL) Derives a drive key for the given drive ID without verifying its correctness against the drive on chain.',
+		'(OPTIONAL) Derives the key for the given entity ID without verifying its correctness against the entity on chain.',
 	type: 'boolean'
 });
